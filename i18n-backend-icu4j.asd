@@ -1,5 +1,5 @@
 (defsystem "i18n-backend-icu4j"
-  :version "0.1.0"
+  :version "0.1.1"
   :description "i18n-protocol backend over cl-stack-icu4j (ICU4J / ABCL)"
   :author "egao1980"
   :license "MIT"
