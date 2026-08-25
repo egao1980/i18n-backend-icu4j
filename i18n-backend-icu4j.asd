@@ -15,7 +15,7 @@
                (:file "catalog"))
   :in-order-to ((test-op (test-op "i18n-backend-icu4j/tests")))
   :properties
-  (:cl-repo (:provides ("i18n-backend-icu4j"))))
+  (:cl-repo (:provides ("i18n-backend-icu4j") :ci (:sources (("rove" :ql))))))
 
 (defsystem "i18n-backend-icu4j/tests"
   :depends-on ("i18n-backend-icu4j" "rove")
